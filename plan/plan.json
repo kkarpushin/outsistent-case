@@ -451,6 +451,11 @@
         {
           "label": "Панель CRM",
           "url": "https://karina.kovcheg.ai/crm/"
+        },
+        {
+          "label": "Все результаты на GitHub",
+          "url": "https://github.com/kkarpushin/outsistent-case",
+          "doc": true
         }
       ],
       "log": [
