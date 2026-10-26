@@ -1,0 +1,4 @@
+Scraping: https://www.facebook.com/Bukhhalterskiposluhy
+Starting Apify run: up to 100 ads, estimate $0.07, hard cap $0.08
+Run P8vBd0FUgZCPtbHds done: 24 items, about $0.000 by the actor's price list
+Saved 24 ads of «Бухгалтерські послуги "Ідеальна бухгалтерія"» to idealna-2026-10-26.json

@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T07:03:50.566747Z",
+    "display_name": "GPT Image 2",
+    "id": "95064207-2976-42c7-a329-9dbec511397e",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_070350_95064207-2976-42c7-a329-9dbec511397e_min.webp",
+    "params": {
+      "aspect_ratio": "4:3",
+      "height": 1744,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines. Three small white cardboard boxes in a row, each with a neat black label «ФОП», are connected by turquoise threads to one large printed bank statement sheet with a header «ВИПИСКА З РАХУНКУ» and columns of numbers. Two tiny figures in dark suits look along the threads through a big magnifying glass; one tiny figure with a clipboard follows a thread. Soft daylight, calm, precise, tidy, white paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2336
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_070350_95064207-2976-42c7-a329-9dbec511397e.png",
+    "status": "completed"
+  }
+]

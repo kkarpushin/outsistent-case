@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T06:55:32.447651Z",
+    "display_name": "GPT Image 2",
+    "id": "a121fa13-b6a3-4db3-ba40-593b4f272f0a",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_065532_a121fa13-b6a3-4db3-ba40-593b4f272f0a_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Isometric 3D illustration in soft matte clay style, clean studio lighting on a light grey background. A big stack of tax declaration papers and bank statements with tidy tables of numbers, one sheet unfolded like a giant floor. Tiny friendly accountant characters in business clothes check every number: two hold large magnifying glasses over digits, one climbs a ladder along a column of figures, two drag a giant highlighter leaving a turquoise #30D5C8 marker stroke under a total, one ticks checkboxes on a clipboard, one waves a small flag on a checked row. Calm, careful, reassuring mood, premium and minimal, graphite #11141B outlines and details, turquoise as the only accent, lots of empty light space on the left third for a headline. No logos, no readable brand names.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_065532_a121fa13-b6a3-4db3-ba40-593b4f272f0a.png",
+    "status": "completed"
+  }
+]

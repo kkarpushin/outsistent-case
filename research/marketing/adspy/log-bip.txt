@@ -1,0 +1,4 @@
+Scraping: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=1277645752344754&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 150 ads, estimate $0.11, hard cap $0.12
+Run XpG7L5S19713xUUcm done: 3 items, about $0.000 by the actor's price list
+Saved 3 ads of «Бухгалтер ідеального підприємця» to bip-1277645752344754-2026-10-26.json

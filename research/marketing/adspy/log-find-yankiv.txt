@@ -1,0 +1,8 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=yankiv&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 40 ads, estimate $0.03, hard cap $0.05
+Run f7BBTWnGtJwydaUvj done: 1 items, about $0.000 by the actor's price list
+Pages advertising for «yankiv» (1 ads in sample, saved to find-yankiv-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Stavební práce | 123927754138917 | 1 | 0 |  | https://www.facebook.com/61551462293931/ |

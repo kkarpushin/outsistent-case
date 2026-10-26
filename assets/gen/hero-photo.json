@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T06:55:32.682114Z",
+    "display_name": "GPT Image 2",
+    "id": "814482a0-3ad9-4493-bfab-4b0865f5a62c",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_065532_814482a0-3ad9-4493-bfab-4b0865f5a62c_min.webp",
+    "params": {
+      "aspect_ratio": "16:9",
+      "height": 1520,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Premium editorial photograph of a miniature world on a clean light grey desk. Giant sheets of Ukrainian tax declaration forms and bank statements lie like a landscape, with neat printed tables, columns of numbers and small form headers reading «ПОДАТКОВА ДЕКЛАРАЦІЯ». Dozens of tiny HO-scale model figurines, accountants and inspectors in neat business clothes, work on the paper: two examine single digits through oversized magnifying glasses, one climbs a small ladder to check a tall column of numbers, two carry a giant highlighter and draw a turquoise marker line under a total, one ticks boxes on a clipboard, one stands next to a calculator as big as a car. Tilt-shift shallow depth of field, soft natural daylight, calm, precise and friendly mood, very tidy composition, generous empty space on the left third for a headline. Palette: white paper, light grey, graphite black details, turquoise #30D5C8 as the only accent color. No logos, no brand names.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2688
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_065532_814482a0-3ad9-4493-bfab-4b0865f5a62c.png",
+    "status": "completed"
+  }
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Extracted from https://audit.outsistent.com.ua/ (inline <symbol id="logo-mini">), 2026-10-26.
+     NOT the original logo: a hand redraw with changed colours (#12A79B / #3F4846 / dot #B8BFBD instead of #30D5C8 / #727272)
+     and changed proportions (1.52:1 vs 1.38:1 in the original PNG). Kept only as evidence of brand drift. Do not use. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 30 760 500" width="760" height="500">
+    <path d="M 370.7 121.9 A 193 193 0 1 0 370.7 438.1" fill="none" stroke="#12A79B" stroke-width="113"/>
+    <circle cx="260" cy="280" r="50" fill="#B8BFBD"/>
+    <path d="M400.0 379.1H526.6Q529.3 406.2 545.3 420.5Q561.3 434.7 587.1 434.7Q613.5 434.7 628.8 422.6Q644.1 410.4 644.1 388.8Q644.1 370.8 631.9 358.9Q619.7 347.1 602.0 339.5Q584.3 331.8 551.6 322.1Q504.3 307.5 474.4 292.9Q444.5 278.3 422.9 249.7Q401.4 221.2 401.4 175.3Q401.4 107.2 450.8 68.6Q500.1 30.0 579.4 30.0Q660.1 30.0 709.5 68.6Q758.8 107.2 762.3 176.0H633.7Q632.3 152.4 616.3 138.8Q600.3 125.3 575.2 125.3Q553.7 125.3 540.5 136.7Q527.3 148.2 527.3 169.8Q527.3 193.4 549.5 206.6Q571.8 219.8 619.1 235.1Q666.3 251.1 695.9 265.7Q725.5 280.3 747.0 308.2Q768.6 336.0 768.6 379.8Q768.6 421.5 747.4 455.6Q726.1 489.7 685.8 509.8Q645.5 530.0 590.5 530.0Q537.0 530.0 494.6 512.6Q452.2 495.2 426.8 461.2Q401.4 427.1 400.0 379.1Z" fill="#3F4846"/>
+  </svg>

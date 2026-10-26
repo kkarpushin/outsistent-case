@@ -1,0 +1,13 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=%D0%BB%D1%96%D0%BC%D1%96%D1%82+%D0%A4%D0%9E%D0%9F&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 60 ads, estimate $0.04, hard cap $0.05
+Run rIzSpvcrlOWgMETQI done: 50 items, about $0.000 by the actor's price list
+Pages advertising for «ліміт ФОП» (50 ads in sample, saved to find-limit-fop-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Впевнено • академія бухгалтера | 1044843018722101 | 43 | 43 | vpevneno.academy (43) | https://www.facebook.com/61590295622474/ |
+| 2 | Вчасно - цифрові сервіси для бізнесу | 900388443436851 | 2 | 2 | zvit.vchasno.ua (2) | https://www.facebook.com/vchasno/ |
+| 3 | Пахомова Тетяна | 671531249373155 | 2 | 2 | instagram.com (2) | https://www.facebook.com/61575976486668/ |
+| 4 | alyona.byx | 113111921693453 | 1 | 1 | instagram.com (1) | https://www.facebook.com/alyona.byx/ |
+| 5 | ФОП Помічник | 1386473697883326 | 1 | 1 | fophelper.com.ua (1) | https://www.facebook.com/61595433272350/ |
+| 6 | Віра Матвіїв  Фінанси бізнесу | 379566701904967 | 1 | 1 | vmatviiv.com (1) | https://www.facebook.com/61562741528717/ |

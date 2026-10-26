@@ -1,0 +1,216 @@
+<title>План лендинга Outsistent</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a project dossier from the same studio as the plan page. Cover band with the stage
+   and a link back to the plan; documents sit behind numbered divider tabs; each reads in one
+   column beside a sticky contents rail; wide tables scroll inside their own frames. */
+:root {
+  --paper: #F3F5F9; --card: #FFFFFF; --ink: #131B2E; --muted: #5D6780; --line: #DCE2EC;
+  --route: #2D5BFF; --route-ink: #FFFFFF; --route-soft: #E3EAFF;
+  --accent: #EE8A1E; --accent-ink: #A4500A; --accent-soft: #FFF0DE;
+  --done: #0E7F5E; --done-soft: #DFF4EA; --blocked: #C2363A; --blocked-soft: #FCE6E6;
+  --row: #F8F9FC;
+  --font-display: "Unbounded", "Onest", system-ui, sans-serif;
+  --font-body: "Onest", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0D1220; --card: #151C2D; --ink: #E6EBF5; --muted: #9AA4BA; --line: #27314A;
+    --route: #7895FF; --route-ink: #0D1220; --route-soft: #1C2747;
+    --accent: #FFA24A; --accent-ink: #FFBE7D; --accent-soft: #3A2814;
+    --done: #4FD1A2; --done-soft: #123227; --blocked: #FF7E7E; --blocked-soft: #3A1A1E;
+    --row: #121929;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0D1220; --card: #151C2D; --ink: #E6EBF5; --muted: #9AA4BA; --line: #27314A;
+  --route: #7895FF; --route-ink: #0D1220; --route-soft: #1C2747;
+  --accent: #FFA24A; --accent-ink: #FFBE7D; --accent-soft: #3A2814;
+  --done: #4FD1A2; --done-soft: #123227; --blocked: #FF7E7E; --blocked-soft: #3A1A1E;
+  --row: #121929;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--paper); color: var(--ink); font: 400 15px/1.6 var(--font-body); -webkit-font-smoothing: antialiased; }
+.wrap {
+  max-width: 1120px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 22px 40px;
+}
+a { color: var(--route); text-underline-offset: 3px; }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--route); outline-offset: 3px; border-radius: 6px; }
+code { font: 500 .84em var(--font-mono); background: var(--row); border: 1px solid var(--line); border-radius: 5px; padding: 0 .3em; overflow-wrap: anywhere; }
+.i { width: 1em; height: 1em; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- cover ---------- */
+.cover { display: grid; gap: 8px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+.cover-top { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.back { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px; background: var(--route); color: var(--route-ink); text-decoration: none; font: 600 12.5px/1.3 var(--font-body); }
+.back .i { font-size: 14px; }
+.back:hover { filter: brightness(1.08); }
+.eyebrow { font: 500 10.5px/1.4 var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--route); }
+h1 { font: 700 clamp(24px, 3.2vw, 36px)/1.1 var(--font-display); letter-spacing: -.015em; margin: 6px 0 0; text-wrap: balance; }
+.lede { margin: 0; max-width: 70ch; font-size: 16px; line-height: 1.5; color: var(--muted); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 12.5px; color: var(--muted); }
+.meta span { display: inline-flex; align-items: center; gap: 6px; }
+.meta .i { font-size: 14px; }
+
+/* ---------- gallery ---------- */
+.gallery { display: grid; gap: 12px; margin-top: 18px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.gallery figure { margin: 0; display: grid; gap: 6px; min-width: 0; }
+.gallery .ph { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: grid; place-items: center; aspect-ratio: 4 / 3; max-width: 100%; padding: 10px; }
+.gallery img { max-width: 100%; max-height: 100%; object-fit: contain; display: block; }
+.gallery figcaption { font-size: 12px; color: var(--muted); }
+
+/* ---------- divider tabs ---------- */
+.tabs { display: flex; gap: 4px; margin-top: 20px; overflow-x: auto; scrollbar-width: thin; border-bottom: 2px solid var(--ink); }
+.tab { display: inline-flex; align-items: center; gap: 8px; flex: none; padding: 9px 14px 8px; border: 1px solid var(--line); border-bottom: 0; border-radius: 10px 10px 0 0; background: var(--card); color: var(--muted); text-decoration: none; font: 600 13.5px/1.2 var(--font-body); }
+.tab .tn { font: 700 10px/1 var(--font-display); letter-spacing: .04em; }
+.tab small { font: 500 10.5px/1 var(--font-mono); padding: 3px 6px; border-radius: 999px; background: var(--row); border: 1px solid var(--line); }
+.tab:hover { color: var(--ink); }
+.tab[aria-current="page"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.tab[aria-current="page"] small { background: transparent; border-color: currentColor; }
+
+/* ---------- document ---------- */
+main { display: grid; gap: 28px; }
+.doc { padding-top: 22px; display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr); scroll-margin-top: 12px; }
+.doc.has-toc { grid-template-columns: 220px minmax(0, 1fr); align-items: start; }
+.toc { position: sticky; top: max(12px, env(safe-area-inset-top, 0px)); min-width: 0; }
+.toc summary { cursor: pointer; font: 500 10.5px/1.4 var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; counter-reset: t; }
+.toc li { counter-increment: t; }
+.toc a { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 4px; padding: 5px 8px 5px 6px; border-radius: 8px; color: var(--ink); text-decoration: none; font-size: 13px; line-height: 1.35; }
+.toc a::before { content: counter(t, decimal-leading-zero); font: 500 10px/1.9 var(--font-mono); color: var(--muted); }
+.toc a:hover { background: var(--card); }
+
+.prose { min-width: 0; max-width: 820px; }
+.doc-title { font: 700 20px/1.2 var(--font-display); margin: 0 0 6px; letter-spacing: -.01em; }
+.sec { padding: 4px 0 6px; scroll-margin-top: 12px; }
+.sec + .sec { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 14px; }
+.prose h2 { font: 650 21px/1.25 var(--font-body); margin: 6px 0 10px; letter-spacing: -.005em; text-wrap: balance; scroll-margin-top: 12px; }
+.prose h3 { font: 650 16.5px/1.3 var(--font-body); margin: 18px 0 6px; text-wrap: balance; scroll-margin-top: 12px; }
+.prose h4, .prose h5, .prose h6 { font: 600 14.5px/1.35 var(--font-body); margin: 14px 0 4px; color: var(--muted); }
+.prose p { margin: 0 0 10px; max-width: 72ch; }
+.prose ul, .prose ol { margin: 0 0 12px; padding-left: 22px; max-width: 74ch; }
+.prose li { margin: 3px 0; }
+.prose li::marker { color: var(--muted); }
+.prose li.task { list-style: none; position: relative; }
+.prose li.task::before { content: ""; position: absolute; left: -20px; top: .42em; width: 12px; height: 12px; border: 1.5px solid var(--muted); border-radius: 3px; }
+.prose li.task.done::before { background: var(--done); border-color: var(--done); }
+.prose strong { font-weight: 650; }
+.prose blockquote { margin: 0 0 12px; padding: 10px 14px; border-radius: 10px; background: var(--card); border: 1px solid var(--line); color: var(--ink); max-width: 72ch; }
+.prose blockquote p:last-child { margin-bottom: 0; }
+.prose hr { border: 0; border-top: 1px dashed var(--line); margin: 16px 0; }
+.prose img { max-width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+
+/* the summary section of a report */
+.sec.key { background: var(--route-soft); border: 0; border-radius: 16px; padding: 14px 18px 8px; margin-bottom: 6px; }
+.sec.key + .sec { border-top: 0; margin-top: 18px; padding-top: 4px; }
+.sec.key h2 { font: 700 13px/1.4 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--route); }
+.sec.key ol, .sec.key ul { max-width: none; }
+.sec.key li { margin: 6px 0; }
+
+/* sources */
+.sec.sources { font-size: 13px; }
+.refs { list-style: none; padding: 0 !important; margin: 0; display: grid; gap: 4px; max-width: none !important; }
+.refs li { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 6px; padding: 4px 6px; border-radius: 8px; scroll-margin-top: 12px; }
+.refs li:target { background: var(--accent-soft); }
+.srcn { font: 500 11px/1.9 var(--font-mono); color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.refs a { overflow-wrap: anywhere; }
+a.ref { font: 500 .78em var(--font-mono); text-decoration: none; padding: 0 1px; }
+a.ref:hover { text-decoration: underline; }
+
+/* tables */
+.tbl { overflow-x: auto; margin: 4px 0 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+.tbl table { border-collapse: collapse; width: 100%; font-size: 13px; line-height: 1.45; }
+.tbl.wide table { min-width: 860px; }
+.tbl th { text-align: left; font-weight: 600; font-size: 12px; color: var(--muted); background: var(--row); padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: bottom; }
+.tbl td { padding: 8px 10px; border-top: 1px solid var(--line); vertical-align: top; font-variant-numeric: tabular-nums; }
+.tbl tr:first-child td { border-top: 0; }
+.tbl td a { overflow-wrap: anywhere; }
+
+.st { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11.5px; font-weight: 600; white-space: nowrap; }
+.st-ok { background: var(--done-soft); color: var(--done); }
+.st-part { background: var(--accent-soft); color: var(--accent-ink); }
+.st-no { background: var(--blocked-soft); color: var(--blocked); }
+.st-na { border: 1px solid var(--line); color: var(--muted); }
+
+.sw { display: inline-block; width: .95em; height: .95em; border-radius: 4px; background: var(--c); border: 1px solid var(--line); vertical-align: -.12em; margin-right: 4px; }
+
+.code { overflow-x: auto; margin: 4px 0 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+.code pre { margin: 0; padding: 12px 14px; font: 500 12.5px/1.55 var(--font-mono); }
+.code code { background: none; border: 0; padding: 0; font-size: inherit; overflow-wrap: normal; }
+
+.foot { margin-top: 32px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+.foot code { font-size: 11px; }
+
+@media (max-width: 900px) {
+  .doc.has-toc { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .toc { position: static; }
+  .toc details:not([open]) summary { margin-bottom: 0; }
+}
+@media (max-width: 560px) {
+  body { font-size: 14.5px; }
+  .tab { padding: 8px 10px 7px; font-size: 12.5px; }
+  .sec.key { padding: 12px 14px 6px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="wrap" lang="ru">
+<header class="cover"><div class="cover-top"><a class="back" href="https://claude.ai/artifact/Wd2VjFtJDqoayg4DSjWfdd" target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg><span>План работ</span></a><span class="eyebrow">Outsistent: сайт и реклама · Этап 05</span></div><h1>План лендинга Outsistent</h1><p class="lede">Текстовый прототип лендинга «Очима банку»: 13 блоков с текстами на украинском голосом Карины, интерактив-самопроверка, лестница цен, структура полного сайта. Сайт по нему уже на karina.kovcheg.ai.</p><div class="meta"><span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10 12h4"/><path d="M10 8h4"/><path d="M14 21v-3a2 2 0 0 0-4 0v3"/><path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"/><path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"/></svg>Карина Замкова · Outsistent</span><span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 14v2.2l1.6 1"/><path d="M16 2v3"/><path d="M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338"/><path d="M3 9h5.859"/><path d="M8 2v3"/><circle cx="16" cy="16" r="6"/></svg>Обновлено 26 октября, 15:34 WITA</span></div></header><main><section class="doc has-toc" id="prototype" data-doc="prototype"><aside class="toc"><details open><summary>Содержание</summary><ol><li><a href="#prototype-h1">Главное о странице</a></li><li><a href="#prototype-h2">1. Первый экран</a></li><li><a href="#prototype-h4">2. Интерактив: «Чи бачить банк ваші ФОП як один бізнес?»</a></li><li><a href="#prototype-h5">3. Що бачить банк</a></li><li><a href="#prototype-h7">4. Чому зараз</a></li><li><a href="#prototype-h9">5. Кому підходить</a></li><li><a href="#prototype-h12">6. Що ви отримаєте</a></li><li><a href="#prototype-h14">7. Як це працює</a></li><li><a href="#prototype-h16">8. Ціни</a></li><li><a href="#prototype-h18">9. Про мене</a></li><li><a href="#prototype-h20">10. Що знаходить перевірка</a></li><li><a href="#prototype-h22">11. Запитання</a></li><li><a href="#prototype-h24">12. Финальный призыв</a></li><li><a href="#prototype-h26">13. Подвал</a></li><li><a href="#prototype-h27">Что поменять в анкете Tally</a></li><li><a href="#prototype-h28">Структура сайта (полный сайт после лендинга)</a></li><li><a href="#prototype-h29">Что нужно от Карины до запуска</a></li></ol></details></aside><article class="prose"><p>Текстовый прототип. Тексты для сайта — на украинском, голосом Карины (на «ви», от первого лица, спокойно). Пояснения для нас — на русском, курсивом в квадратных скобках. Всё, чего нет в источниках, помечено {ЗАПОЛНИТЬ}. Основа: GAP-анализ и выжимка для лендинга, ДНК, бренд-бук.</p><section class="sec key"><h2 id="prototype-h1">Главное о странице</h2><ul><li><strong>Кому:</strong> власники товарного бізнесу на кількох ФОП (своїх, чоловіка чи дружини, родичів): маркетплейси, роздріб із ПРРО, імпорт. Сегмент пока гипотеза, его проверяет первый тест.</li><li><strong>Одна боль:</strong> банк може зупинити гроші й попросити документи, бо бачить кілька ФОП як один бізнес, а власник не знає заздалегідь, що саме банку не сподобається.</li><li><strong>Оффер:</strong> «Карта ризиків ваших рахунків і структури ФОП очима банку — за 3 робочі дні, навіть якщо банк ще нічого не запитував.»</li><li><strong>Одно главное действие:</strong> заполнить анкету (5–7 минут). Второе, мягкое: написать БАНК и получить чек-лист.</li><li><strong>Лестница:</strong> чек-лист «10 ознак» бесплатно → експрес-перевірка «Очима банку» (фиксированная цена) → Аудит фінансової безпеки → супровід або перебудова структури.</li><li><strong>Куда ведёт:</strong> анкета Tally (та же, что сейчас, плюс два изменения, см. блок 11), кодовое слово — в директ Instagram и Telegram @outsistentZP.</li><li><strong>Бренд:</strong> цвета и логотип Outsistent без изменений: бирюза <span class="sw" style="--c:#30D5C8"></span>#30D5C8, серый <span class="sw" style="--c:#727272"></span>#727272, тёмный <span class="sw" style="--c:#11141B"></span>#11141B, фон <span class="sw" style="--c:#F5F5F5"></span>#F5F5F5. На бирюзовой кнопке тёмный текст (белый не проходит по контрасту).</li></ul><hr></section><section class="sec "><h2 id="prototype-h2">1. Первый экран</h2><h3 id="prototype-h3">Ваші рахунки — очима банку <em>(H1)</em></h3><p>Карта ризиків ваших ФОП за 3 робочі дні — до того, як банк попросить документи.</p><p>[<em>26.10: первый экран сокращён по просьбе Константина и по отчёту критика (<code>site/critique.md</code>). Было: «Подивіться на свої рахунки так, як їх бачить банк, — до того, як він попросить документи».</em>]</p><p>Кнопка: <strong>Заповнити анкету</strong> · подпись: 5–7 хвилин. Без оплати та зобов&#x27;язань. Вторая ссылка: Спершу самоперевірка → чек-лист «10 ознак» за словом БАНК</p><p>Строка доверия: Карина Замкова · податковий консультант · 15 років в обліку · ТОВ «Аутсістент» з 2019 року</p><p>[<em>Фото: Карина в кадре, спокойная, деловой стиль, как в её постах 2026 года. Вертикальный кадр 4:5 справа на компьютере, сверху на телефоне. Только её реальное фото, не генерация.</em>]</p></section><section class="sec "><h2 id="prototype-h4">2. Интерактив: «Чи бачить банк ваші ФОП як один бізнес?»</h2><p>[<em>Выбираем на шаге «Интерактив» после вашего дизайна. Предложение по умолчанию — самопроверка без ввода данных: 10 галочек, результат сразу на экране. Ничего не сохраняем и никуда не отправляем.</em>]</p><p>Позначте, що є у вашому бізнесі:</p><ul><li>Кілька ФОП працюють на одну справу: один сайт, магазин на маркетплейсі чи точка продажу</li><li>У ФОП спільна адреса, телефон або бухгалтер</li><li>Один POS-термінал чи еквайринг обслуговує різні ФОП</li><li>Один із ФОП за 2–3 місяці вибирає майже весь річний ліміт</li><li>Обороти різко виросли проти тих, що ви вказували банку</li><li>Гроші від покупців приходять і на ФОП, і на особисту картку</li><li>Призначення платежу не відповідає КВЕДам</li><li>На початок і кінець дня на рахунку майже нуль</li><li>Серед ФОП є чоловік, дружина чи інші родичі</li><li>Ви не пам&#x27;ятаєте, що писали банку в анкеті клієнта</li></ul><p>Результат:</p><ul><li><strong>0–2:</strong> Схоже, банку нема до чого чіплятися. Збережіть список і перевіряйте себе раз на квартал.</li><li><strong>3–5:</strong> Банк може поставити запитання. Краще підготувати відповіді заздалегідь, ніж збирати документи за три дні.</li><li><strong>6–10:</strong> Це картина, яку банк бачить як один бізнес. Варто подивитися на структуру до запиту, а не після.</li></ul><p>Кнопка под результатом: <strong>Заповнити анкету</strong></p><p>[<em>Признаки взяты из материалов о финмониторинге банков (audience [2][3], сверено). Результаты-пороги — наше предложение, не норма банка: так и подпишем мелко.</em>]</p></section><section class="sec "><h2 id="prototype-h5">3. Що бачить банк</h2><h3 id="prototype-h6">Банк не питає «чи законно». Він питає «чи схоже на один бізнес»</h3><p>Короткими абзацами, голосом Карины:</p><p>Банки дивляться не на кожен ФОП окремо. Окрема увага — групам пов&#x27;язаних осіб, коли кілька ФОП де-факто є одним бізнесом.</p><p>Для цього в банку є перелік ознак: спільна адреса, одна точка продажу чи сайт, спільний бухгалтер, один POS-термінал.</p><p>А у виписці насторожує інше: різке зростання оборотів, надходження на особисту картку паралельно з ФОП, призначення платежу не за КВЕДом.</p><p>Це не привід для тривоги. Це привід подивитися на свої рахунки так само, як на них дивиться банк.</p><p>[<em>Источник ознак — audience [2][3], сверено. Мелкая подпись под блоком: «За матеріалами банків і фахових видань, 2026».</em>]</p></section><section class="sec "><h2 id="prototype-h7">4. Чому зараз</h2><h3 id="prototype-h8">Що змінилось у 2026 році</h3><p>Четыре факта с датами, карточками:</p><ul><li><strong>З 14 травня 2026</strong> банки за Меморандумом обмінюються інформацією про клієнтів з ознаками підозрілості.</li><li><strong>З 14 листопада 2026</strong> нові (до 6 місяців) і «сплячі» ФОП 2–3 групи без підтвердження доходів можуть отримувати до 1 млн грн на місяць. Більше — з документами.</li><li><strong>З початку 2026 року</strong> ДПС виявила понад 500 брендів з ознаками дроблення.</li><li><strong>Один запит банку</strong> — це десятки документів. У практиці трапляються запити на понад 90.</li></ul><p>[<em>Важно: лимит 1 млн — только для новых и «спящих» ФОП, пишем именно так. «+40–50% закрытий счетов», «Укрпошта — налоговый агент» и «штраф 3 000 НМДГ» не используем: проверка их не подтвердила. Дата старта Меморандума у источников расходится (14.05 или 14.08) — перед публикацией сверить {ЗАПОЛНИТЬ}.</em>]</p></section><section class="sec "><h2 id="prototype-h9">5. Кому підходить</h2><h3 id="prototype-h10">Кому підійде перевірка</h3><ul><li><strong>Кілька ФОП на одну справу.</strong> Ваші, чоловіка чи дружини, батьків — і всі працюють на один магазин, склад чи сайт.</li><li><strong>Торгівля з ПРРО, маркетплейси, імпорт.</strong> Гроші приходять з різних каналів: NovaPay, еквайринг, накладений платіж.</li><li><strong>Бізнес росте.</strong> Оборот іде до ліміту, а структура лишилась тією, з якої ви починали.</li></ul><h3 id="prototype-h11">Кому не підійде</h3><ul><li>Один ФОП без росту. Чесно скажу: перевірка вам, швидше за все, не потрібна.</li><li>Потрібна відповідь на одне питання. Для цього є консультація — 1 500 грн за 30 хвилин.</li></ul><p>[<em>Фильтр микро-ФОП: просил GAP-анализ, чтобы реклама не собирала нецелевые заявки.</em>]</p></section><section class="sec "><h2 id="prototype-h12">6. Що ви отримаєте</h2><h3 id="prototype-h13">Після перевірки у вас на руках</h3><ul><li><strong>Карта ризиків рахунків і структури</strong> — що банк може побачити як проблему, по кожному ФОП: критично, важливо, допустимо.</li><li><strong>Список документів</strong>, які варто мати під рукою до запиту банку.</li><li><strong>Як коротко описати модель бізнесу</strong> для банку, щоб опис збігався з тим, що видно у виписці.</li><li><strong>План дій:</strong> що виправити зараз, що — пізніше, що можна залишити.</li><li><strong>Розбір онлайн</strong> — 30–40 хвилин, відповіді на ваші питання.</li></ul><p>Зразок карти ризиків: {ЗАПОЛНИТЬ: знеособлений приклад однієї сторінки}</p><p>[<em>Образец отчёта открыто показывают немногие конкуренты (GAP, «частично»). Нужен реальный обезличенный пример от Карины.</em>]</p><p>Мелкая оговорка под блоком: Це перевірка податкових і банківських ризиків, а не аудит фінансової звітності у розумінні Закону № 2258-VIII.</p></section><section class="sec "><h2 id="prototype-h14">7. Як це працює</h2><h3 id="prototype-h15">Чотири кроки, 3 робочі дні</h3><ol><li><strong>Анкета</strong> — 5–7 хвилин: форма бізнесу, скільки ФОП, оборот, хто веде облік.</li><li><strong>Документи</strong> — виписки по всіх рахунках за {ЗАПОЛНИТЬ: період}, КВЕДи, ключові договори.</li><li><strong>Перевірка</strong> — 3 робочі дні.</li><li><strong>Розбір</strong> — онлайн-зустріч і письмова карта ризиків.</li></ol><p>[<em>Срок 3 рабочих дня — гипотеза пилота (ориентир — экспресс-аудит YANKIV за 1–3 дня). Карина подтверждает, что успевает.</em>]</p></section><section class="sec "><h2 id="prototype-h16">8. Ціни</h2><h3 id="prototype-h17">Від самоперевірки до повного аудиту</h3><p>Четыре ступени карточками, слева направо:</p><div class="tbl"><table><thead><tr><th>Ступінь</th><th>Що це</th><th>Ціна</th></tr></thead><tbody><tr><td>Чек-лист «10 ознак»</td><td>Самоперевірка за 10 хвилин</td><td>Безкоштовно, за словом БАНК</td></tr><tr><td>Експрес-перевірка «Очима банку»</td><td>Карта ризиків рахунків і структури ФОП, розбір онлайн</td><td>{ЗАПОЛНИТЬ: ціна, гипотеза 3 000–5 000 грн}</td></tr><tr><td>Аудит фінансової безпеки</td><td>4 площини: структура, облік, податки, банки. Карта ризиків, план дій, письмовий звіт, 14 днів на уточнення</td><td>{ЗАПОЛНИТЬ: від … грн}</td></tr><tr><td>Супровід</td><td>Облік і звітність щомісяця</td><td>ФОП від 1 200 грн/міс · ТОВ від 9 000 грн/міс</td></tr></tbody></table></div><p>Под таблицей: Вартість експрес-перевірки зараховується в повний аудит. {ЗАПОЛНИТЬ: подтвердить зачёт}</p><p>[<em>Цена входа публикуется, как у YANKIV, BIP и Матвіїв: без неё покупатель сравнит с бухгалтером за 500 грн. Цены сопровождения — из Прайса-2026 Карины. 100 000 грн из поста не используем.</em>]</p></section><section class="sec "><h2 id="prototype-h18">9. Про мене</h2><h3 id="prototype-h19">Друга, незалежна пара очей</h3><p>[<em>Фото Карины 2.</em>]</p><p>Я Карина Замкова. 15 років в обліку, друга вища освіта — юридична. З 2019 року керую бухгалтерською компанією «Аутсістент».</p><p>Я сама власниця бізнесу. І бачу, що більшість податкових проблем видно заздалегідь — просто нема кому подивитися вчасно.</p><p>Я не оцінюю вашого бухгалтера як людину. Бухгалтер веде облік. Моя робота — подивитися збоку і показати, що видно банку й податковій.</p><p>Цифры практики (со слов Карины, нужны подтверждения): 200+ розблокованих податкових накладних · 16+ млн грн відшкодованого ПДВ · {ЗАПОЛНИТЬ: скільки перевірок проведено}</p><p>[<em>Фразы — её собственные из постов и лендинга. «Сертифікований податковий консультант» — указать, кем выдан сертификат {ЗАПОЛНИТЬ}, или писать «податковий консультант».</em>]</p></section><section class="sec "><h2 id="prototype-h20">10. Що знаходить перевірка</h2><h3 id="prototype-h21">Три ситуації з практики</h3><p>Три кейса с текущего аудит-лендинга, обобщённо и без имён: ТОВ-импортёр с двумя ФОП-покупателями (муж и жена); ТОВ с одним бухгалтером и финпомощью 4 млн грн, оформленной как дивиденды; ФОП на упрощёнке, который вёл учёт сам.</p><p>[<em>Тексты кейсов — дословно с audit.outsistent.com.ua. Отзывов клиентов на сайте нет: {ЗАПОЛНИТЬ: 2–3 отзыва с разрешением}. Цитаты из исследования аудитории — слова людей с форумов, отзывами их не делаем.</em>]</p></section><section class="sec "><h2 id="prototype-h22">11. Запитання</h2><h3 id="prototype-h23">Що зазвичай питають</h3><p><strong>Банк нічого не питав. Навіщо перевіряти?</strong> Відсутність запиту не означає відсутність ризику. Банки обмінюються даними, і те, що побачив один, бачать інші.</p><p><strong>Мій бухгалтер каже, що все гаразд.</strong> Я не перевіряю бухгалтера. Я дивлюся на ваші рахунки очима банку. Це друга, незалежна пара очей.</p><p><strong>Боюсь дізнатись щось погане.</strong> Перевірка — не вирок. Ви отримаєте спокійний розбір і конкретний план: що виправити зараз, що потім.</p><p><strong>Ми так працюємо вже 5 років.</strong> Банки ставлять запитання і ФОП з 20-річним досвідом. Минулі роки без запитів не гарантують наступних.</p><p><strong>Кілька ФОП — це ж законна оптимізація?</strong> Я не сперечаюся про це. Я показую, що бачить банк, і пропоную структуру, до якої не буде питань.</p><p><strong>Скільки це коштує?</strong> Експрес-перевірка — {ЗАПОЛНИТЬ: ціна}. Вартість зараховується в повний аудит.</p><p><strong>Ви гарантуєте, що рахунок не заблокують?</strong> Ні. Цього не може гарантувати ніхто. Я покажу, що банк може побачити як ризик, і як підготуватися.</p><p>[<em>Ответы — из её текстов на лендинге и выжимки возражений. Последний вопрос важен: обещать «банк не заблокирует» нельзя.</em>]</p></section><section class="sec "><h2 id="prototype-h24">12. Финальный призыв</h2><h3 id="prototype-h25">Подивіться на свої рахунки до того, як це зробить банк</h3><p>Анкета — 5–7 хвилин. Без оплати та зобов&#x27;язань. Я відповім протягом {ЗАПОЛНИТЬ: строк ответа}.</p><p>Кнопка: <strong>Заповнити анкету</strong> Ниже: Або напишіть БАНК у директ @karina_zamkova чи в Telegram @outsistentZP — надішлю чек-лист «10 ознак».</p></section><section class="sec "><h2 id="prototype-h26">13. Подвал</h2><p>ТОВ «Аутсістент» · ЄДРПОУ 43052696 · {ЗАПОЛНИТЬ: email і телефон, які зараз актуальні} · Політика конфіденційності</p><p>Це перевірка податкових і банківських ризиків, а не аудит фінансової звітності у розумінні Закону № 2258-VIII.</p><hr></section><section class="sec "><h2 id="prototype-h27">Что поменять в анкете Tally</h2><ol><li>Шкала оборота сейчас начинается с «до 10 млн грн». Добавить нижние ступени: до 2 млн / 2–5 млн / 5–10 млн.</li><li>Добавить вопрос: «Чи були запити від банку за останні 12 місяців?» (так / ні / зараз є запит).</li><li>Поле «Що стало приводом» оставить, это главный источник голоса клиента.</li></ol></section><section class="sec "><h2 id="prototype-h28">Структура сайта (полный сайт после лендинга)</h2><p>Сейчас outsistent.com.ua — сайт 2020 года: цены 2020-го, RU и UA, битая ссылка на тарифы, 619 страниц обращений в открытой карте сайта. Новый сайт в том же бренде:</p><div class="tbl"><table><thead><tr><th>Страница</th><th>Что на ней</th></tr></thead><tbody><tr><td>Головна</td><td>Два направления: перевірки та аудит для власників · супровід ФОП і ТОВ. Карина, цифры практики, кейсы</td></tr><tr><td>Експрес-перевірка «Очима банку»</td><td>Этот лендинг</td></tr><tr><td>Аудит фінансової безпеки</td><td>Четыре площини, этапы, что получите, кейсы, анкета</td></tr><tr><td>Супровід ФОП і ТОВ</td><td>Тарифы 2026 из прайса Карины, разовые услуги</td></tr><tr><td>Про Карину</td><td>История, образование, подход, фото</td></tr><tr><td>Самоперевірка</td><td>Серия «Самоперевірка ФОП», чек-листы, статьи (из постов и LinkedIn)</td></tr><tr><td>Контакти</td><td>Анкета, Telegram, телефон, реквизиты ТОВ</td></tr></tbody></table></div><p>Язык: украинский (Карина пишет только по-украински с 2025 года). Русская версия — {ЗАПОЛНИТЬ: решение, нужна ли}.</p></section><section class="sec "><h2 id="prototype-h29">Что нужно от Карины до запуска</h2><ul><li>Цена экспресс-проверки и полного аудита, период выписок, срок ответа на анкету.</li><li>Обезличенный образец карты рисков (одна страница).</li><li>2–3 отзыва клиентов с разрешением на публикацию.</li><li>Подтверждение цифр практики (200+ ПН, 16+ млн ПДВ) и кем выдан сертификат налогового консультанта.</li><li>Фото: 2–3 реальных снимка.</li><li>Логотип в векторе (SVG, AI или PDF).</li><li>Переименовать страницу Facebook «Аутсорсинговая компания Аутсистент» в украинское название бренда.</li></ul></section></article></section></main><footer class="foot"><span>Файлы проекта: <code>~/WebinarK/karina/landing/prototype.md</code></span></footer>
+</div>
+
+<script>
+(function () {
+  var docs = Array.prototype.slice.call(document.querySelectorAll("section.doc"));
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  if (docs.length < 2) return;
+  function show(slug) {
+    docs.forEach(function (d) { d.hidden = d.id !== slug; });
+    tabs.forEach(function (t) {
+      if (t.dataset.doc === slug) t.setAttribute("aria-current", "page"); else t.removeAttribute("aria-current");
+    });
+  }
+  function go(hash, scroll) {
+    var id = (hash || "").replace(/^#/, "");
+    var el = id && document.getElementById(id);
+    var doc = el && (el.classList.contains("doc") ? el : el.closest("section.doc"));
+    if (!doc) { show(docs[0].id); return false; }
+    show(doc.id);
+    if (scroll) {
+      if (el !== doc) el.scrollIntoView({ block: "start" });
+      else document.querySelector(".tabs").scrollIntoView({ block: "start" });
+    }
+    return true;
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!a) return;
+    var h = a.getAttribute("href");
+    if (go(h, true)) {
+      e.preventDefault();
+      try { history.replaceState(null, "", h); } catch (err) {}
+    }
+  });
+  window.addEventListener("hashchange", function () { go(location.hash, true); });
+  // on load the browser has already jumped to the anchor in the full-length page;
+  // after hiding the other documents, land on the cover or on the linked heading
+  function land() {
+    var el = location.hash && document.getElementById(location.hash.slice(1));
+    go(location.hash, false);
+    if (el && !el.classList.contains("doc")) el.scrollIntoView({ block: "start" });
+    else window.scrollTo(0, 0);
+  }
+  land();
+  window.addEventListener("load", function () { setTimeout(land, 0); });
+})();
+</script>

@@ -1,0 +1,20 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=%D0%B1%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%81%D1%83%D0%BF%D1%80%D0%BE%D0%B2%D1%96%D0%B4+%D0%A2%D0%9E%D0%92&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 60 ads, estimate $0.04, hard cap $0.05
+Run ggjwL81oB7EHcTIGS done: 44 items, about $0.000 by the actor's price list
+Pages advertising for «бухгалтерський супровід ТОВ» (44 ads in sample, saved to find-suprovid-tov-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Сервіс підтримки бухгалтера | 154950967710478 | 20 | 20 | avs-ifrs.com.ua (20) | https://www.facebook.com/61554787704006/ |
+| 2 | ID. Центр Бухгалтерських Послуг | 109120960803632 | 8 | 8 | instagram.com (8) | https://www.facebook.com/NashBuh/ |
+| 3 | Ліга Фінансів - Бухгалтерський супровід ФОП і ТОВ | 1170712082802847 | 3 | 3 | fb.me (3) | https://www.facebook.com/61593195180328/ |
+| 4 | ТОВ «Контроль-Аудит» | 580973991766266 | 2 | 2 | facebook.com (1), instagram.com (1) | https://www.facebook.com/61574045061500/ |
+| 5 | Облік Інсайд | 824094760779331 | 2 | 2 | instagram.com (2) | https://www.facebook.com/61579694594531/ |
+| 6 | Вдалий Звіт | 108619487242278 | 2 | 2 | fb.com (2) | https://www.facebook.com/vzvit.pro/ |
+| 7 | Бухсвіт | 148815838323705 | 1 | 1 | instagram.com (1) | https://www.facebook.com/61553346116980/ |
+| 8 | FinZvit | 444026028799806 | 1 | 1 | fb.me (1) | https://www.facebook.com/61567643976055/ |
+| 9 | Бухгалтерські послуги "ПрофБухСервіс" | 1992928557682656 | 1 | 1 | fb.me (1) | https://www.facebook.com/10pbs10/ |
+| 10 | Valentynabuhgalter | 280912418429913 | 1 | 1 |  | https://www.facebook.com/61557081638691/ |
+| 11 | Finlad.ua | 1231569920040124 | 1 | 1 | finlad.com.ua (1) | https://www.facebook.com/61592340045956/ |
+| 12 | Бухгалтер ідеального підприємця | 1277645752344754 | 1 | 1 | fb.me (1) | https://www.facebook.com/bip.net.ua/ |
+| 13 | Chief Accountant Аудит та бухгалтерія | 1084625664730908 | 1 | 1 | instagram.com (1) | https://www.facebook.com/61574293115754/ |

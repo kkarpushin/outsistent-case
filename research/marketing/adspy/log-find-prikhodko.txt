@@ -1,0 +1,10 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=prikhodko.com.ua&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 40 ads, estimate $0.03, hard cap $0.04
+Run 9FOVg9lD3IVlb32MM done: 8 items, about $0.000 by the actor's price list
+Pages advertising for «prikhodko.com.ua» (8 ads in sample, saved to find-prikhodko-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | International FinTech Law - Prikhodko&Partners | 171419739376929 | 6 | 6 | prikhodko.com.ua (6) | https://www.facebook.com/61553046352003/ |
+| 2 | Prikhodko&Partners Law Company | 1774471676137147 | 1 | 0 | instagram.com (1) | https://www.facebook.com/prikhodkopartners/ |
+| 3 | Військові адвокати та юристи - "Приходько та партнери" | 118882901302859 | 1 | 1 | prikhodko.com.ua (1) | https://www.facebook.com/prikhodkopartnersmilitarylaw/ |

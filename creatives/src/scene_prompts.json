@@ -1,0 +1,36 @@
+{
+  "_style": "Тот же мир, что на лендинге (assets/gen/bank-sees.json, risk-map.json): tilt-shift миниатюра, HO-фигурки, светло-серый стол, белая бумага, графит, бирюза #30D5C8. Пустое место под заголовок задаём в промпте; заголовки на картинку генератором не пишем.",
+  "s1_empty_tray": {
+    "aspect_ratio": "4:5",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines, vertical composition. The upper third of the frame is plain empty light grey desk surface, soft and clean. In the lower two thirds: a white wire document tray with a small neat black label «ЗАПИТИ БАНКУ», the tray is completely empty. Beside it lies a long printed bank statement with the header «ВИПИСКА З РАХУНКУ» and neat columns of numbers. Three tiny figures in dark business suits calmly study the statement: one holds a big magnifying glass over a row, two others carry a turquoise highlighter as big as a log and draw a turquoise line under one row. Soft daylight, calm, precise, tidy, reassuring. White paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour."
+  },
+  "s2_statement_rows": {
+    "aspect_ratio": "9:16",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama, vertical 9:16 composition. The top 35% of the frame is plain empty light grey desk surface, soft and clean. Below, a large printed bank statement lies diagonally on the desk, header «ВИПИСКА З РАХУНКУ», neat table with dates and amounts. Three rows are highlighted with translucent turquoise marker stripes. HO-scale figurines in dark business suits walk along the rows: one looks through a big round magnifying glass, one pulls a giant turquoise highlighter along the next row, one makes notes on a tiny clipboard. Soft daylight from the left, shallow depth of field, calm and precise mood. White paper, light grey, graphite, turquoise #30D5C8 as the only accent colour."
+  },
+  "s3_fop_to_shop": {
+    "aspect_ratio": "9:16",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, vertical 9:16 composition. The top 35% of the frame is plain empty light grey desk surface. Below: three small white cardboard boxes in a row, each with a neat black label «ФОП». From each box a turquoise thread runs down and all three threads meet at one small white model shop with a tiny sign «МАГАЗИН» and one small card payment terminal in front of it. An HO-scale figure in a dark suit stands where the threads meet and looks at them through a big magnifying glass; another tiny figure with a clipboard follows one thread. Soft daylight, calm, tidy, precise. White paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour."
+  },
+  "s4_checklist": {
+    "aspect_ratio": "4:5",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines, vertical composition. The upper third of the frame is plain empty light grey desk surface. Below lies a clean printed checklist sheet with a bold header «10 ОЗНАК» and ten neat rows, each with an empty square checkbox and grey text lines. Four checkboxes are already ticked in turquoise. Tiny figures in business clothes work on the sheet: one ticks a box with a pencil as big as a log, one reads the list holding a tiny clipboard, one points calmly at the next row. Soft daylight, calm, tidy, reassuring. White paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour.",
+    "_note": "Отбраковано: генератор вписал в список нерелевантные пункты (самопомощь). Заменено s4_checklist_v2; файл сохранён как scenes/s4_checklist_REJECTED.png."
+  },
+  "s5_stamp_vs_statement": {
+    "aspect_ratio": "4:5",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines, vertical composition. The upper third of the frame is plain empty light grey desk surface. On the left lies a printed accounting report with a fresh round grey ink stamp «ВСЕ ГАРАЗД»; a tiny accountant figure in a white shirt stands next to it holding a rubber stamp as big as himself and smiles. On the right, a second sheet «ВИПИСКА З РАХУНКУ» with columns of numbers; two tiny figures in dark suits look at it through a big round magnifying glass, and a turquoise marker line highlights one row. Both scenes calm and friendly, nobody alarmed. Soft daylight, tidy, precise. White paper, light grey, graphite, turquoise #30D5C8 as the only accent colour."
+  },
+  "s6_calendar_1411": {
+    "aspect_ratio": "9:16",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, vertical 9:16 composition. The top 35% of the frame is plain empty light grey desk surface. Below stands a white tear-off desk calendar, huge compared to the HO-scale figurines, its page shows a big number «14» and below it the word «ЛИСТОПАДА» in graphite. A tiny figure on a small ladder draws a neat turquoise circle around the number with a giant marker. Three other tiny figures in business clothes stand calmly in front of the calendar, one reads a small document, one holds a clipboard. Soft daylight, calm, orderly, no drama. White paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour."
+  },
+  "s7_risk_map_bank": {
+    "aspect_ratio": "4:5",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines, vertical composition. The upper quarter of the frame is plain empty light grey desk surface. Below lies a clean printed sheet with the header «КАРТА РИЗИКІВ» and a neat table of five rows: «Одна точка продажу на кілька ФОП», «Надходження на особисту картку», «Призначення платежу не за КВЕДом», «Різке зростання оборотів», «Нуль на рахунку на кінець дня». Beside the rows lie big round stickers: one red, two amber, two turquoise. Tiny accountants in business clothes place the stickers; one ticks a box with a pencil as big as a log. Soft daylight, calm, reassuring, very tidy. White paper, light grey, graphite details."
+  },
+  "s4_checklist_v2": {
+    "aspect_ratio": "4:5",
+    "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines, vertical composition. The upper third of the frame is plain empty light grey desk surface. Below lies a clean printed checklist sheet with a bold header «10 ОЗНАК» and ten numbered rows, each with a square checkbox and short text: «Кілька ФОП — одна справа», «Спільна адреса чи бухгалтер», «Один POS-термінал», «Річний ліміт за 2–3 місяці», «Різке зростання оборотів», «Гроші на особисту картку», «Платіж не за КВЕДом», «Нуль на рахунку щодня», «Родичі серед ФОП», «Забута анкета для банку». The first four boxes are ticked in turquoise. Tiny figures in business clothes: one ticks a box with a turquoise pencil as big as a log, one reads the list holding a tiny clipboard. Soft daylight, calm, tidy. White paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour."
+  }
+}

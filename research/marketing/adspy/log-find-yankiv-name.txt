@@ -1,0 +1,8 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&q=%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD+%D0%AF%D0%BD%D0%BA%D1%96%D0%B2&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 40 ads, estimate $0.03, hard cap $0.04
+Run T11Omq7BOCKsvEYca done: 7 items, about $0.000 by the actor's price list
+Pages advertising for «Богдан Янків» (7 ads in sample, saved to find-yankiv-name-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | 7eminar.com | 1671254369776528 | 7 | 0 | 7eminar.ua (7) | https://www.facebook.com/7eminar/ |

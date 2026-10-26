@@ -1,0 +1,4 @@
+Scraping: https://www.facebook.com/yankiv.bohdan
+Starting Apify run: up to 100 ads, estimate $0.07, hard cap $0.08
+Run xsSsGeEQlBHFUCdim done: 1 items, about $0.000 by the actor's price list
+Saved 0 ads of «page» to yankiv-2026-10-26.json

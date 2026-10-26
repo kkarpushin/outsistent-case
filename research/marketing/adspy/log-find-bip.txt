@@ -1,0 +1,36 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=bip.net.ua&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 40 ads, estimate $0.03, hard cap $0.04
+Run EGopPj848mzA0gvFG done: 40 items, about $0.000 by the actor's price list
+Pages advertising for «bip.net.ua» (40 ads in sample, saved to find-bip-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Mueller Weir Delaware | 878508812014559 | 4 | 0 | w2a.reelshort.com (4) | https://www.facebook.com/61583960594176/ |
+| 2 | Ns-YXB-ST | 552981401237268 | 3 | 0 | fb.netshort.com (3) | https://www.facebook.com/61573272540075/ |
+| 3 | Біхелсі/Behealthy - клініка сімейної медицини - Нововолинськ | 267589556437046 | 3 | 0 | behealthy.net.ua (3) | https://www.facebook.com/behealthy.clinic.novovolynsk/ |
+| 4 | NetShort-ZL | 790965520772950 | 2 | 0 | fb.netshort.com (2) | https://www.facebook.com/61581531212308/ |
+| 5 | Ns-Yxb-Sna | 1049419654910931 | 2 | 0 | fb.netshort.com (2) | https://www.facebook.com/61587463646914/ |
+| 6 | Ns-yd-1 | 899701433236447 | 2 | 0 | fb.netshort.com (2) | https://www.facebook.com/61587641604199/ |
+| 7 | NS-by-11 | 1121084631081918 | 2 | 0 | fb.netshort.com (2) | https://www.facebook.com/61573346084831/ |
+| 8 | Ns-Yxb-YY7 | 956949820838047 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61587324335924/ |
+| 9 | Ns-xc-3 | 981103055092407 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61581313686727/ |
+| 10 | NS-by-10 | 1050249738172687 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61573634627039/ |
+| 11 | Ns-Yxb-Snj | 964810716718354 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61587587581779/ |
+| 12 | NS-WER-DZx | 1248571421666842 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61591326487867/ |
+| 13 | Ns-zhongj118 | 1020801911117884 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61587445320865/ |
+| 14 | HZ YXB 319 | 600025649863813 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61574446828954/ |
+| 15 | Ns-zhongj-cb3 | 1136368576237428 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61591030299593/ |
+| 16 | NetShort-01 | 437418702786220 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61565439822139/ |
+| 17 | NS-zsmf-01 | 1007803485750218 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61587641314465/ |
+| 18 | Ns-zhongj116 | 1002113746313759 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61587376585857/ |
+| 19 | NS-Zs-03 | 924628760735357 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61585558079698/ |
+| 20 | Destinyo Emilyn Roset | 939830852539048 | 1 | 0 | w2a.reelshort.com (1) | https://www.facebook.com/61584332185861/ |
+| 21 | Netstory TV | 870913779439530 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61583859046239/ |
+| 22 | Jm5 | 1106677899192892 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61569209712055/ |
+| 23 | NS-ly-6 | 1078646591991277 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61582760491451/ |
+| 24 | Foxfengboyu | 1332946759895403 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61593686854055/ |
+| 25 | NS-zs-32 | 1006505642544130 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61588654977252/ |
+| 26 | Ns-YXB-ST4 | 594424770419257 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61574057242385/ |
+| 27 | NS-AJ-zw | 556042390933543 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61574150139049/ |
+| 28 | NS-fhh5-0823xao | 1295064107004105 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61593549667644/ |
+| 29 | NS-fhjj0705 | 1255172284339087 | 1 | 0 | fb.netshort.com (1) | https://www.facebook.com/61591700100065/ |

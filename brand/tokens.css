@@ -1,0 +1,121 @@
+/* =====================================================================
+   Outsistent / «Аутсистент» — design tokens (снято с действующего бренда)
+   Дата съёмки: 2026-10-26
+   Источники:
+     [LOGO]  PNG-логотипы с outsistent.com.ua (цвета по пикселям, палитровые PNG = точные значения)
+     [SITE]  outsistent.com.ua, theme CSS main.min.css?ver=1.0.52 + inline critical CSS
+     [AUDIT] audit.outsistent.com.ua (inline :root, 2026)
+     [IG]    шаблоны Instagram @karina_zamkova 2026 (медиана пикселей JPEG, точность ±2)
+   Правило: блок CORE не меняется (решение заказчика). EXTENDED — оттенки,
+   которые уже встречаются в каналах бренда; в новых макетах брать их,
+   а не изобретать новые. Подробно: brandbook.md
+   ===================================================================== */
+
+:root {
+  /* ---------- CORE: цвета логотипа (не менять) ---------- */
+  --brand-primary:            #30D5C8; /* [LOGO][SITE] бирюза: кольцо «O», «OUT», акценты, заливки, чек-иконки. 103 упоминания в CSS */
+  --brand-logo-grey:          #727272; /* [LOGO] «S», точка, «SISTENT» в версии для светлого фона */
+  --brand-logo-white:         #FFFFFF; /* [LOGO] «S», точка, «SISTENT» в версии для тёмного фона */
+  --brand-logo-descriptor:    #000000; /* [LOGO] подпись «аутсорсингова компанія» в Logo_2.png / Outsistent_Logo.png */
+
+  /* ---------- CORE: интерфейс сайта ---------- */
+  --brand-primary-hover:      #1AB5A9; /* [SITE] .btn_style:hover */
+  --brand-primary-hover-alt:  #27B5AA; /* [SITE] .button:hover, input[type=submit]:hover */
+  --brand-ink:                #000917; /* [SITE] основной цвет текста body и ссылок (почти чёрный с синевой) */
+  --brand-heading:            #222222; /* [SITE] h2 */
+  --brand-heading-h1:         #212121; /* [SITE] h1 */
+  --brand-heading-h3:         #00263A; /* [SITE] h3 (мелкий капс-надзаголовок) */
+  --brand-dark:               #11141B; /* [SITE] шапка, футер, .btn-black */
+  --brand-dark-hover:         #343944; /* [SITE] .btn-black:hover */
+  --brand-dark-legal:         #252525; /* [SITE] шапка таблицы «Юридическое сопровождение» */
+  --brand-topbar:             #333333; /* [SITE] header .header_top */
+  --brand-footer-divider:     #434549; /* [SITE] .footer_bottom border-top */
+  --brand-accent-numeral:     #6978B9; /* [SITE] крупные цифры 01–06 (вторичный акцент) */
+  --brand-telegram:           #039BE5; /* [SITE] кнопка «Пишите» (Telegram), только для неё */
+  --brand-telegram-hover:     #048ACC;
+  --brand-alert:              #F0929B; /* [SITE] восклицательный знак «важно» (редко) */
+
+  /* нейтральные */
+  --brand-bg:                 #FFFFFF; /* [SITE] основной фон */
+  --brand-bg-section:         #F5F5F5; /* [SITE] фон чередующихся секций */
+  --brand-bg-cool:            #F3F6FA; /* [SITE] обводки/подложки process */
+  --brand-bg-cool-2:          #F0F3FA; /* [SITE] FAQ */
+  --brand-line-cool:          #EDF2FA; /* [SITE] разделители слайдера услуг */
+  --brand-table-stripe:       #F2F2F2; /* [SITE] зебра таблиц тарифов */
+  --brand-border:             #D2D2D2; /* [SITE] обводки форм и карточек */
+  --brand-border-input:       #E1E4EB; /* [SITE] поля формы */
+  --brand-muted:              #7F7F7F; /* [SITE] подписи в шапке/футере */
+  --brand-placeholder:        #A6A6A6; /* [SITE] placeholder (контраст 2.4:1, см. брендбук) */
+
+  /* ---------- EXTENDED: уже есть в Instagram / audit (тёмная и светлая бирюза) ---------- */
+  --brand-teal-dark:          #0D7773; /* [IG] кнопки и плашки CTA, акцентный текст (белый на нём 5.4:1) */
+  --brand-teal-dark-audit:    #0C7F76; /* [AUDIT] --teal-dark (белый на нём 4.9:1) */
+  --brand-teal-audit:         #12A79B; /* [AUDIT] --teal. ОТКЛОНЕНИЕ от #30D5C8, в новых макетах не использовать как основной */
+  --brand-turquoise-light:    #73EBDF; /* [IG] крупные цифры, штрих-маркер под словом */
+  --brand-tint:               #E3F4F2; /* [AUDIT] --teal-tint (подложки бейджей) */
+  --brand-tint-ig:            #E8FCFA; /* [IG] нижняя полоса слайдов */
+  --brand-bg-mint:            #F3F7F6; /* [IG] фон каруселей 2026 */
+  --brand-bg-audit:           #FAFAF9; /* [AUDIT] --bg */
+  --brand-bg-audit-alt:       #F1F4F3; /* [AUDIT] --bg-alt */
+  --brand-ink-ig:             #2F3535; /* [IG] цвет заголовков в каруселях */
+  --brand-ink-audit:          #3F4846; /* [AUDIT] --ink */
+  --brand-ink-audit-soft:     #5B6462; /* [AUDIT] --ink-soft */
+  --brand-ink-audit-faint:    #8B9391; /* [AUDIT] --ink-faint */
+  --brand-line-audit:         #DEE4E2; /* [AUDIT] --line */
+
+  /* ---------- Рекомендованные роли для нового лендинга (только из значений выше) ---------- */
+  --role-cta-bg:              var(--brand-primary);   /* бирюзовая кнопка… */
+  --role-cta-text:            var(--brand-dark);      /* …с тёмным текстом: 10.1:1 (AAA) */
+  --role-cta-bg-hover:        var(--brand-primary-hover);
+  --role-cta-alt-bg:          var(--brand-teal-dark); /* альтернатива: тёмная бирюза… */
+  --role-cta-alt-text:        #FFFFFF;                /* …с белым текстом: 5.4:1 (AA) */
+  --role-link:                var(--brand-teal-dark); /* ссылки и мелкий акцентный текст на белом: 5.4:1 (AA) */
+  --role-text:                var(--brand-ink);
+  --role-heading:             var(--brand-heading);
+  --role-highlight:           var(--brand-primary);   /* маркер ПОД тёмным текстом, не цвет самого текста */
+  --role-surface-dark:        var(--brand-dark);      /* на нём бирюза как текст допустима: 10.1:1 */
+
+  /* ---------- Типографика ---------- */
+  --brand-font-site:          "GothamPro", "Gotham Pro", "Montserrat", Arial, sans-serif; /* [SITE] единственная гарнитура сайта, локальные файлы темы */
+  --brand-font-web-free:      "Montserrat", Arial, sans-serif;  /* [IG] бесплатный аналог Gotham, используется в каруселях 2026 */
+  --brand-font-script:        "Marck Script", cursive;          /* [IG] рукописный акцент (определено визуально, не подтверждено) */
+  --brand-font-audit-display: "Golos Text", sans-serif;         /* [AUDIT] заголовки */
+  --brand-font-audit-body:    "Inter", sans-serif;              /* [AUDIT] текст */
+
+  /* шкала сайта, desktop (px) */
+  --fs-hero-slogan:   24px;  /* h4 «Вы развиваете свой бизнес — мы его сопровождаем!», 600, бирюза */
+  --fs-hero-h1:       37px;  /* h1.main_title, 600, lh 1.1 */
+  --fs-h2:            46px;  /* секционные h2, 600, lh 1.1; 36px ≤991px; 32px ≤767px */
+  --fs-form-title:    35px;
+  --fs-card-title:    30px;  /* заголовки преимуществ, 500 */
+  --fs-block-title:   28px;  /* «БУХГАЛТЕРСКИЕ УСЛУГИ», 600, uppercase */
+  --fs-lead:          20px;  /* списки, пункты услуг, кнопки */
+  --fs-body:          16px;  /* body, lh 27px; абзацы lh 33.6px */
+  --fs-nav:           15px;  /* меню, 500, uppercase */
+  --fs-small:         12px;
+  --fs-numeral:      100px;  /* цифры 01–06, 500, #6978B9 */
+  --lh-body:          27px;
+  --fw-light: 300; --fw-regular: 400; --fw-medium: 500; --fw-semibold: 600; --fw-bold: 700; --fw-black: 900;
+
+  /* ---------- Формы, радиусы, тени ---------- */
+  --radius-sm:        3px;
+  --radius-md:        5px;   /* самый частый на сайте (21×) */
+  --radius-lg:       10px;   /* кнопки .button / submit / Telegram */
+  --radius-round:    50%;    /* иконки-кружки, точки */
+  --radius-audit:    14px;   /* [AUDIT] карточки */
+  --radius-pill:    999px;   /* [AUDIT][IG] кнопки-таблетки */
+  --shadow-card:      3px 0 35px rgba(0, 0, 0, 0.16); /* [SITE] основная тень карточек/кнопок (12×) */
+  --shadow-card-soft: 5px 0 49px rgba(0, 0, 0, 0.13);
+  --shadow-header:    0 0 25px rgba(0, 0, 0, 0.30);
+  --shadow-text-hero: 0 0 15px rgba(0, 0, 0, 0.25);
+  --overlay-dark:     rgba(0, 9, 23, 0.45);          /* [SITE] затемнение фото-баннеров (#000917 @ 45%) */
+  --transition:       all .4s;
+
+  /* ---------- Сетка ---------- */
+  --container:       1200px; /* [SITE] 970px ≥992, 750px ≥768; паддинг 15px */
+  --container-audit: 1120px; /* [AUDIT] паддинг 28px */
+  --gutter:            15px;
+  --section-pad-y:     90px; /* [SITE] типичный вертикальный отступ секции (60–130px) */
+  --heading-gap:       60px; /* [SITE] .section-heading margin-bottom */
+  --logo-header-w:    210px; /* [SITE] max-width логотипа в шапке; 187px на мобильном */
+}

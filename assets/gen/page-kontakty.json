@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T07:12:23.167517Z",
+    "display_name": "GPT Image 2",
+    "id": "76e77110-bc35-437a-8ecf-7446187f00e7",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071223_76e77110-bc35-437a-8ecf-7446187f00e7_min.webp",
+    "params": {
+      "aspect_ratio": "4:3",
+      "height": 1744,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a clean light grey desk, HO-scale model figurines in neat business clothes, soft natural daylight, calm, precise and friendly mood, very tidy composition, white paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour, no logos. A tiny figure of a woman accountant in a white blazer stands next to a large paper envelope and an oversized smartphone lying on the desk, the phone screen shows a simple form with a turquoise button; two tiny figures walk toward her with a folder of documents. Welcoming, open, calm.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2336
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071223_76e77110-bc35-437a-8ecf-7446187f00e7.png",
+    "status": "completed"
+  }
+]

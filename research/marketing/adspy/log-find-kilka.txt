@@ -1,0 +1,27 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=%D0%BA%D1%96%D0%BB%D1%8C%D0%BA%D0%B0+%D0%A4%D0%9E%D0%9F&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 60 ads, estimate $0.04, hard cap $0.05
+Run 8eQ5HCNUca5dJKAdH done: 53 items, about $0.000 by the actor's price list
+Pages advertising for «кілька ФОП» (53 ads in sample, saved to find-kilka-fop-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Uleasing | 674990469036918 | 12 | 12 | uleasing.in.ua (12) | https://www.facebook.com/uleasing.in.ua/ |
+| 2 | ПриватБанк | 114364555250747 | 7 | 7 | privatbank.ua (3), newpromos.privatbank.ua (2) | https://www.facebook.com/privatbank/ |
+| 3 | Nebo_consulting | 100589445627284 | 7 | 7 | instagram.com (7) | https://www.facebook.com/nebo.consulting/ |
+| 4 | Цибулькова Крамниця | 104584252684858 | 3 | 3 |  | https://www.facebook.com/100094064554912/ |
+| 5 | Масажери | 484372488093628 | 3 | 3 | instagram.com (3) | https://www.facebook.com/61568950678056/ |
+| 6 | Сервіс підтримки бухгалтера | 154950967710478 | 3 | 3 | avs-ifrs.com.ua (3) | https://www.facebook.com/61554787704006/ |
+| 7 | Elma Consulting | 271799069624999 | 2 | 2 | instagram.com (2) | https://www.facebook.com/elma.consulting/ |
+| 8 | Maria Klimenko | 101272226334708 | 2 | 2 | instagram.com (2) | https://www.facebook.com/100093545312740/ |
+| 9 | Credit Agricole Ukraine | 937099836377768 | 2 | 2 | credit-agricole.ua (2) | https://www.facebook.com/CreditAgricoleUkraine/ |
+| 10 | Yalynkaa OSS | 1407232079130057 | 2 | 2 | yalynkaoss.com (2) | https://www.facebook.com/61594727052046/ |
+| 11 | Bravo Shop Ukraine | 245433828646314 | 1 | 1 |  | https://www.facebook.com/61556397208327/ |
+| 12 | ОщадБізнес | 126242581257783 | 1 | 1 | oschadbusiness.com (1) | https://www.facebook.com/oschadbusiness/ |
+| 13 | GrandConsult | 100628159639497 | 1 | 1 | instagram.com (1) | https://www.facebook.com/grandconsult.cv/ |
+| 14 | Розсадник Поліни Вітер | 743174042764709 | 1 | 1 |  | https://www.facebook.com/rozsadnykviter/ |
+| 15 | United Kyiv Roasters - все необхідне для кавового бізнесу | 106526469198627 | 1 | 1 | ukr.coffee (1) | https://www.facebook.com/unitedkyivroasters/ |
+| 16 | Fed Vet Store | 107870428422849 | 1 | 1 | instagram.com (1) | https://www.facebook.com/100076127993497/ |
+| 17 | MassMa Pos | 503519419522635 | 1 | 1 | fb.me (1) | https://www.facebook.com/61573614711366/ |
+| 18 | Віра Матвіїв  Фінанси бізнесу | 379566701904967 | 1 | 1 | vmatviiv.com (1) | https://www.facebook.com/61562741528717/ |
+| 19 | yuliia_makarenko | 113695361634913 | 1 | 1 | instagram.com (1) | https://www.instagram.com/_u/yuliia_makarenko |
+| 20 | megapolis_law_group | 111370235036624 | 1 | 1 | instagram.com (1) | https://www.instagram.com/_u/megapolis_law_group |

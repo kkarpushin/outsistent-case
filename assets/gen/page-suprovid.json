@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T07:12:19.026972Z",
+    "display_name": "GPT Image 2",
+    "id": "50e2bfc3-c2b7-46d1-92fe-99da998de0bb",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071219_50e2bfc3-c2b7-46d1-92fe-99da998de0bb_min.webp",
+    "params": {
+      "aspect_ratio": "4:3",
+      "height": 1744,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a clean light grey desk, HO-scale model figurines in neat business clothes, soft natural daylight, calm, precise and friendly mood, very tidy composition, white paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour, no logos. A big wall calendar sheet lies on the desk with several dates circled in turquoise marker; tiny accountants walk along it, one places a small flag on a date, two carry a tax declaration sheet, one sits at a tiny desk with a laptop entering numbers, one checks off a list «ЗВІТИ ЗДАНО». Orderly, routine, reassuring.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2336
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071219_50e2bfc3-c2b7-46d1-92fe-99da998de0bb.png",
+    "status": "completed"
+  }
+]

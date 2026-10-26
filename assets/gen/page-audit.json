@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T07:12:16.991812Z",
+    "display_name": "GPT Image 2",
+    "id": "6f45693d-0eb1-4334-9d16-8cd5e370bff0",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071216_6f45693d-0eb1-4334-9d16-8cd5e370bff0_min.webp",
+    "params": {
+      "aspect_ratio": "4:3",
+      "height": 1744,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a clean light grey desk, HO-scale model figurines in neat business clothes, soft natural daylight, calm, precise and friendly mood, very tidy composition, white paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour, no logos. Four neat stacks of papers in a row with small printed signs «СТРУКТУРА», «ОБЛІК», «ПОДАТКИ», «БАНКИ». Tiny auditors work at each stack: one measures with a ruler, one checks a column of numbers through a magnifying glass, one marks a line with a turquoise highlighter, one compares a bank statement with a receipt. A tiny figure carries a clipboard titled «ПЛАН ДІЙ» toward the viewer.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2336
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071216_6f45693d-0eb1-4334-9d16-8cd5e370bff0.png",
+    "status": "completed"
+  }
+]

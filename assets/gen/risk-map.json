@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T07:05:27.601597Z",
+    "display_name": "GPT Image 2",
+    "id": "b4c3345a-dbf1-458a-9a6a-7f5922b3d52f",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_070527_b4c3345a-dbf1-458a-9a6a-7f5922b3d52f_min.webp",
+    "params": {
+      "aspect_ratio": "4:3",
+      "height": 1744,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a light grey desk, HO-scale model figurines. A large clean printed sheet with the header «КАРТА РИЗИКІВ» and a neat table of rows. Tiny accountants in business clothes place big round coloured stickers beside the rows: one red, two amber, several turquoise #30D5C8. One tiny figure ticks a checkbox with a pencil as big as a log; another presents the sheet with an open hand to a small figure of a business owner. Soft daylight, calm, reassuring, very tidy, white paper, light grey, graphite details.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2336
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_070527_b4c3345a-dbf1-458a-9a6a-7f5922b3d52f.png",
+    "status": "completed"
+  }
+]

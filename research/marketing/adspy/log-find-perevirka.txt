@@ -1,0 +1,10 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%BA%D0%BE%D0%B2%D0%B0+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D1%96%D1%80%D0%BA%D0%B0&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 60 ads, estimate $0.04, hard cap $0.05
+Run catBOOrpO9lSkhUEE done: 6 items, about $0.000 by the actor's price list
+Pages advertising for «податкова перевірка» (6 ads in sample, saved to find-perevirka-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Alfagoldconsulting  | 1334141686449907 | 4 | 4 | alfagold.ua (4) | https://www.facebook.com/61594908685021/ |
+| 2 | Центр Розблокування ПДВ | 852186194651415 | 1 | 1 |  | https://www.facebook.com/61584300600814/ |
+| 3 | POWER Display | 1481498645217411 | 1 | 1 | run-done.com (1) | https://www.facebook.com/powerdisplay.com.ua/ |

@@ -1,0 +1,32 @@
+Ad Library search: https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=UA&is_targeted_country=false&media_type=all&q=%D0%A4%D0%9E%D0%9F+%D1%87%D0%B8+%D0%A2%D0%9E%D0%92&search_type=keyword_unordered&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 60 ads, estimate $0.04, hard cap $0.05
+Run Vscf60m9uAJXz3CWE done: 61 items, about $0.000 by the actor's price list
+Pages advertising for «ФОП чи ТОВ» (61 ads in sample, saved to find-fop-chy-tov-2026-10-26.json):
+
+| # | Page | page_id | ads in sample | active | links to | profile |
+|---|---|---|---|---|---|---|
+| 1 | Uleasing | 674990469036918 | 12 | 12 | uleasing.in.ua (12) | https://www.facebook.com/uleasing.in.ua/ |
+| 2 | DUOTET | 254775492104485 | 7 | 7 | fb.me (7) | https://www.facebook.com/duotet.outsourcing.company/ |
+| 3 | Сервіс підтримки бухгалтера | 154950967710478 | 7 | 7 | avs-ifrs.com.ua (7) | https://www.facebook.com/61554787704006/ |
+| 4 | Grand Group Partners | 634049993908427 | 4 | 4 | fb.me (4) | https://www.facebook.com/ggp.com.ua/ |
+| 5 | Є штамп | 327633361083837 | 3 | 3 | instagram.com (3) | https://www.facebook.com/eshtamp/ |
+| 6 | Віра Матвіїв  Фінанси бізнесу | 379566701904967 | 3 | 3 | vmatviiv.com (3) | https://www.facebook.com/61562741528717/ |
+| 7 | Аутсорсинговая компания Аутсистент | 108581794006014 | 3 | 3 | audit.outsistent.com.ua (3) | https://www.facebook.com/outsistent/ |
+| 8 | GVS | 108916013978142 | 2 | 2 | fb.me (2) | https://www.facebook.com/gvscosmetics.ukraine/ |
+| 9 | ProVector consulting | 1356392344216348 | 2 | 2 | fb.me (2) | https://www.facebook.com/61594727420482/ |
+| 10 | Maria Klimenko | 101272226334708 | 2 | 2 | instagram.com (2) | https://www.facebook.com/100093545312740/ |
+| 11 | AVS: курси та експертна підтримка бухгалтера | 1215380231656704 | 2 | 2 | avs-ifrs.com.ua (2) | https://www.facebook.com/61591997546237/ |
+| 12 | ironprint.com.ua | 102192248717867 | 1 | 1 | instagram.com (1) | https://www.facebook.com/100068049752593/ |
+| 13 | Олена Набатова | 101233385842764 | 1 | 1 | instagram.com (1) | https://www.facebook.com/olena.nabatova/ |
+| 14 | Люкс бухгалтерія франчазі Полтава | 127175027154629 | 1 | 1 | instagram.com (1) | https://www.facebook.com/luxbug.poltava/ |
+| 15 | Ваш Бухгалтер | 584563761388414 | 1 | 1 | fb.me (1) | https://www.facebook.com/61572192530342/ |
+| 16 | Навчальний центр Пульс - курси бухгалтерів онлайн | 1069438106249208 | 1 | 1 |  | https://www.facebook.com/61577548102641/ |
+| 17 | Symmetry Plus | 396063247244187 | 1 | 1 | fb.me (1) | https://www.facebook.com/symmetryplus/ |
+| 18 | Novis009 | 103226405381130 | 1 | 1 | novis009.adsquiz.io (1) | https://www.facebook.com/novis009/ |
+| 19 | LifeBuh | 101044419373790 | 1 | 1 | fb.me (1) | https://www.facebook.com/LifeBuhVN/ |
+| 20 | Lifetea | 110176314773563 | 1 | 1 | lifetea.shop (1) | https://www.facebook.com/Lifetea.shop/ |
+| 21 | VSI LEGAL GROUP | 453565147847455 | 1 | 1 | fb.me (1) | https://www.facebook.com/61568431935498/ |
+| 22 | BBCenter Consulting | 211796225345207 | 1 | 1 | instagram.com (1) | https://www.facebook.com/61554894254513/ |
+| 23 | Бухгалтер вашого бізнесу | 313015091904004 | 1 | 1 | my-buh.com.ua (1) | https://www.facebook.com/61560549659906/ |
+| 24 | Патентно-юридична компанія "Wellmarks" | 103555205792562 | 1 | 1 | fb.me (1) | https://www.facebook.com/100084257828588/ |
+| 25 | Вдалий Звіт | 108619487242278 | 1 | 1 | fb.com (1) | https://www.facebook.com/vzvit.pro/ |

@@ -1,0 +1,23 @@
+[
+  {
+    "created_at": "2026-10-26T07:12:20.995219Z",
+    "display_name": "GPT Image 2",
+    "id": "854787e1-10b1-4509-ba7d-ec32a17a07a0",
+    "job_type": "gpt_image_2",
+    "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071220_854787e1-10b1-4509-ba7d-ec32a17a07a0_min.webp",
+    "params": {
+      "aspect_ratio": "4:3",
+      "height": 1744,
+      "medias": [],
+      "model": "videotape-alpha",
+      "prompt": "Editorial macro photograph of a tilt-shift miniature diorama on a clean light grey desk, HO-scale model figurines in neat business clothes, soft natural daylight, calm, precise and friendly mood, very tidy composition, white paper, light grey, graphite details, turquoise #30D5C8 as the only accent colour, no logos. A large open checklist sheet titled «САМОПЕРЕВІРКА ФОП» with rows and empty checkboxes; one tiny business owner figure ticks a checkbox with a pencil as big as a log, another tiny figure reads the list with a small magnifying glass, a third figure holds up a turquoise bookmark. Bright and friendly.",
+      "quality": "high",
+      "reference_elements": [],
+      "remove_bg": false,
+      "resolution": "2k",
+      "width": 2336
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_071220_854787e1-10b1-4509-ba7d-ec32a17a07a0.png",
+    "status": "completed"
+  }
+]

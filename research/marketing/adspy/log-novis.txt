@@ -1,0 +1,4 @@
+Scraping: https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=103226405381130&sort_data%5Bdirection%5D=desc&sort_data%5Bmode%5D=total_impressions
+Starting Apify run: up to 250 ads, estimate $0.19, hard cap $0.20
+Run LZSfXVfEcu3r2Rhuw done: 8 items, about $0.000 by the actor's price list
+Saved 8 ads of «Novis009» to novis009-103226405381130-2026-10-26.json

@@ -1,0 +1,35 @@
+# Never publish: client leads, CRM password, any env/secret files
+crm/leads.db*
+crm/.crm-password
+.env*
+**/.env*
+*.pem
+*.key
+
+# Raw and third-party data: scraped Instagram/site dumps (the old site's question pages carry
+# names of people who wrote in), copies of third-party web pages, SERP and social snapshots,
+# Karina's Instagram media copies, the old site's CSS, reference designs owned by others
+research/raw/
+research/sources/pages/
+research/marketing/pages/
+research/marketing/serp/
+research/marketing/social/
+brand/assets/instagram/
+brand/assets/css/
+refs/
+
+# Build output, dependencies, local tooling
+site/node_modules/
+site/.next/
+site/out/
+site/artifact/
+site/*.tsbuildinfo
+.claude/
+__pycache__/
+*.pyc
+
+# Heavy intermediate scenes (finals are in creatives/out and site/public)
+creatives/scenes/
+
+# Raw Ad Library datasets (reports stay)
+research/marketing/adspy/*.json

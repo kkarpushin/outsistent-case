@@ -1,0 +1,49 @@
+[
+  {
+    "created_at": "2026-10-26T06:58:08.247819Z",
+    "display_name": "Seedance 2.0",
+    "id": "75d00fc2-33b1-47ce-93ea-f9200e85069d",
+    "job_type": "seedance_2_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "16:9",
+      "bitrate_mode": "standard",
+      "duration": 8,
+      "generate_audio": false,
+      "genre": "auto",
+      "height": 1080,
+      "medias": [
+        {
+          "data": {
+            "id": "1b9f67c4-ec52-40b5-9148-03be1d23ae20",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/1b9f67c4-ec52-40b5-9148-03be1d23ae20_resize.jpg"
+          },
+          "role": "start_image"
+        },
+        {
+          "data": {
+            "id": "1b9f67c4-ec52-40b5-9148-03be1d23ae20",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/1b9f67c4-ec52-40b5-9148-03be1d23ae20_resize.jpg"
+          },
+          "role": "end_image"
+        }
+      ],
+      "mode": "std",
+      "model": "seedance_2_0",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Static locked-off camera, no cuts, no camera movement. The same miniature world on the desk comes gently alive: the two tiny accountants lean closer with their magnifying glasses over the numbers and slowly move them along a row; the man on the ladder steps up one rung and taps a number with his pen; the pair carrying the giant highlighter slowly drag it forward, extending the turquoise marker line under the total; the woman with the clipboard ticks a box and nods; the two figures at the top talk and turn a page. Small, calm, precise movements, soft daylight, tilt-shift depth of field stays the same. Paper and calculator stay still. Seamless loop: the last frame matches the first.",
+      "prompt_language": "en",
+      "reference_elements": [],
+      "resolution": "1080p",
+      "speedramp": "auto",
+      "width": 1920
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_065808_75d00fc2-33b1-47ce-93ea-f9200e85069d.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_32ujR7Je8E4evzFg0cv4gaortgB/hf_20261026_065808_75d00fc2-33b1-47ce-93ea-f9200e85069d_thumbnail.webp"
+  }
+]
